@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="https://content.stucom.tech/isfsc/comb1/sisu-events/website/logo/s-dot-black-round.png">
     <style>
         body {
-            background-color: #000; /* Fond noir */
+            background-color: #000; /* Fond noir pour la page */
             color: #fff; /* Texte blanc */
             font-family: Arial, sans-serif;
             margin: 0;
@@ -25,7 +25,17 @@
         }
         iframe {
             border: none;
-            background-color: #fff; /* Fond blanc pour le formulaire */
+            background-color: #000; /* Fond noir pour l'iframe */
+        }
+        /* Style pour le contenu de l'iframe */
+        iframe body {
+            background-color: #000 !important; /* Fond noir pour le contenu du formulaire */
+        }
+        iframe .freebirdFormviewerViewCenteredContent {
+            background-color: #000 !important; /* Fond noir pour la zone du formulaire */
+        }
+        iframe .freebirdFormviewerViewNavigationNoSubmit {
+            background-color: #000 !important; /* Fond noir pour la barre de navigation */
         }
     </style>
 </head>
